@@ -2,12 +2,14 @@
   "name": "saviah",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/saviah.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "dist": "vue-cli-service build --target lib --name saviah ./src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
