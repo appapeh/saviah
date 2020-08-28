@@ -32,6 +32,18 @@ For a better development and keep ourself to exploring, this is our very first D
 
 ---
 
+## 使用方式 How to use
+
+include Saviah in package.json
+
+```
+    "dependencies": {
+        "saviah": "git+https://github.com/wwwanyu/saviah.git"
+    }
+```
+
+---
+
 ## Command 指令
 
 ### Project setup
